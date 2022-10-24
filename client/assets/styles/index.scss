@@ -1,0 +1,18 @@
+@import 'normalize';
+@import 'element-ui';
+@import 'global';
+
+* {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  flex: 1;
+  @include IE {
+    min-height: 100vh;
+  }
+}

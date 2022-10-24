@@ -1,0 +1,142 @@
+{
+  "exclude": [
+    "**/node_modules/**/*",
+    "**/.nuxt/**/*",
+    "**/.build/**/*",
+    "**/dist/**/*",
+    "**/.widget/**/*",
+    "**/.eslint-loader-cache/**/*",
+    "**/.element-theme/**/*",
+    "**/.static/**/*"
+  ],
+  "include": ["./**/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "paths": {
+      "@pages": [
+        "./pages/index.js",
+        "./pages/index.json",
+        "./pages/index.vue",
+        "./pages/index.scss",
+        "./pages/index.css"
+      ],
+      "@pages/*": ["./pages/*"],
+      "@layouts": [
+        "./layouts/index.js",
+        "./layouts/index.json",
+        "./layouts/index.vue",
+        "./layouts/index.scss",
+        "./layouts/index.css"
+      ],
+      "@layouts/*": ["./layouts/*"],
+      "@components": [
+        "./components/index.js",
+        "./components/index.json",
+        "./components/index.vue",
+        "./components/index.scss",
+        "./components/index.css"
+      ],
+      "@components/*": ["./components/*"],
+      "@directives": [
+        "./directives/index.js",
+        "./directives/index.json",
+        "./directives/index.vue",
+        "./directives/index.scss",
+        "./directives/index.css"
+      ],
+      "@directives/*": ["./directives/*"],
+      "@styles": [
+        "./styles/index.js",
+        "./styles/index.json",
+        "./styles/index.vue",
+        "./styles/index.scss",
+        "./styles/index.css"
+      ],
+      "@styles/*": ["./styles/*"],
+      "@assets": [
+        "./assets/index.js",
+        "./assets/index.json",
+        "./assets/index.vue",
+        "./assets/index.scss",
+        "./assets/index.css"
+      ],
+      "@assets/*": ["./assets/*"],
+      "@utils": [
+        "./utils/index.js",
+        "./utils/index.json",
+        "./utils/index.vue",
+        "./utils/index.scss",
+        "./utils/index.css"
+      ],
+      "@utils/*": ["./utils/*"],
+      "@store": [
+        "./store/index.js",
+        "./store/index.json",
+        "./store/index.vue",
+        "./store/index.scss",
+        "./store/index.css"
+      ],
+      "@store/*": ["./store/*"],
+      "@plugins": [
+        "./plugins/index.js",
+        "./plugins/index.json",
+        "./plugins/index.vue",
+        "./plugins/index.scss",
+        "./plugins/index.css"
+      ],
+      "@plugins/*": ["./plugins/*"],
+      "@modules": [
+        "./modules/index.js",
+        "./modules/index.json",
+        "./modules/index.vue",
+        "./modules/index.scss",
+        "./modules/index.css"
+      ],
+      "@modules/*": ["./modules/*"],
+      "@api": [
+        "./api/index.js",
+        "./api/index.json",
+        "./api/index.vue",
+        "./api/index.scss",
+        "./api/index.css"
+      ],
+      "@api/*": ["./api/*"],
+      "@const": [
+        "./constant/index.js",
+        "./constant/index.json",
+        "./constant/index.vue",
+        "./constant/index.scss",
+        "./constant/index.css"
+      ],
+      "@const/*": ["./constant/*"],
+      "@composables": [
+        "./composables/index.js",
+        "./composables/index.json",
+        "./composables/index.vue",
+        "./composables/index.scss",
+        "./composables/index.css"
+      ],
+      "@composables/*": ["./composables/*"],
+      "@mixins": [
+        "./mixins/index.js",
+        "./mixins/index.json",
+        "./mixins/index.vue",
+        "./mixins/index.scss",
+        "./mixins/index.css"
+      ],
+      "@mixins/*": ["./mixins/*"],
+      "@services": [
+        "./services/index.js",
+        "./services/index.json",
+        "./services/index.vue",
+        "./services/index.scss",
+        "./services/index.css"
+      ],
+      "@services/*": ["./services/*"],
+      "@": ["./index.js", "./index.json", "./index.vue", "./index.scss", "./index.css"],
+      "@/*": ["./*"]
+    }
+  },
+  "vueCompilerOptions": { "target": 2.7 }
+}

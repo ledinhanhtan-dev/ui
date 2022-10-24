@@ -14,10 +14,21 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@aceforth/nuxt-optimized-images": "^1.4.0",
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge",
+    "@nuxt/builder": "^2.15.8",
+    "@nuxt/builder-edge": "^2.16.0-27720022.54e852f",
+    "@nuxt/cli-edge": "^2.16.0-27720022.54e852f",
     "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/composition-api": "^0.33.1",
+    "@nuxtjs/moment": "^1.6.1",
+    "axios": "^1.1.3",
     "core-js": "^3.25.3",
     "element-ui": "^2.15.10",
+    "lodash": "^4.17.21",
     "nuxt": "^2.15.8",
+    "nuxt-edge": "latest",
+    "populate.js": "^1.2.2",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
@@ -26,13 +37,31 @@
     "@babel/eslint-parser": "^7.19.1",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@nuxt/postcss8": "^1.1.3",
+    "@nuxt/vite-builder": "^3.0.0-rc.12",
     "@nuxtjs/eslint-config": "^11.0.0",
     "@nuxtjs/eslint-module": "^3.1.0",
+    "@nuxtjs/google-fonts": "^3.0.0-0",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/style-resources": "^1.2.1",
+    "@nuxtjs/stylelint-module": "^4.1.0",
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@originjs/vite-plugin-require-context": "^1.0.9",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.5.1",
+    "find-config": "^1.0.0",
     "husky": "^8.0.1",
-    "prettier": "^2.7.1"
+    "nuxt-vite": "^0.3.5",
+    "nuxt-webpack-optimisations": "^2.2.5",
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0",
+    "sass-loader": "10.3.1"
+  },
+  "resolutions": {
+    "vue": "^2.7.13",
+    "vue-server-renderer": "^2.7.13",
+    "vue-template-compiler": "^2.7.13"
   }
 }
